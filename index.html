@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Hover React</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="img1 img"></div>
+      <div class="img2 img"></div>
+      <div class="img3 img"></div>
+      <div class="img4 img"></div>
+      <div class="img5 img"></div>
+      <div class="img6 img"></div>
+    </div>
+
+    <script src="https://threejs.org/build/three.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+    <script src="hover-effect.umd.js"></script>
+
+    <script>
+
+      // IMAGE 1
+      var hoverDistort = new hoverEffect({
+        parent: document.querySelector(".img1"),
+        intensity: 0.5,
+        image1: "./imgs/11.png",
+        image2: "./imgs/12.png",
+        displacementImage: "./displacement-maps/star.png"
+});
+
+      // IMAGE 2
+      var hoverDistort = new hoverEffect({
+        parent: document.querySelector(".img2"),
+        intensity: 0.5,
+        image1: "./imgs/21.png",
+        image2: "./imgs/22.png",
+        displacementImage: "./displacement-maps/melt.png"
+});
+
+      // IMAGE 3
+      var hoverDistort = new hoverEffect({
+        parent: document.querySelector(".img3"),
+        intensity: 0.5,
+        image1: "./imgs/31.png",
+        image2: "./imgs/32.png",
+        displacementImage: "./displacement-maps/rock.png"
+});
+
+      // IMAGE 4
+      var hoverDistort = new hoverEffect({
+        parent: document.querySelector(".img4"),
+        intensity: 0.5,
+        image1: "./imgs/41.png",
+        image2: "./imgs/42.png",
+        displacementImage: "./displacement-maps/faces.png"
+});
+
+      // IMAGE 5
+      var hoverDistort = new hoverEffect({
+        parent: document.querySelector(".img5"),
+        intensity: 0.5,
+        image1: "./imgs/51.png",
+        image2: "./imgs/52.png",
+        displacementImage: "./displacement-maps/min.png"
+});
+
+      // IMAGE 6
+      var hoverDistort = new hoverEffect({
+        parent: document.querySelector(".img6"),
+        intensity: 0.5,
+        image1: "./imgs/61.png",
+        image2: "./imgs/62.png",
+        displacementImage: "./displacement-maps/lines.png"
+});
+    </script>
+  </body>
+</html>

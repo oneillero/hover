@@ -2,10 +2,6 @@
 
 This project showcases an interactive mouseover effect created with Three.js. The component applies a displacement effect to images when hovered over, resulting in an engaging visual experience. It utilizes the power of Three.js, GSAP (TweenMax), and custom shaders to achieve the desired effect.
 
-`###Demo`
-
-To see the interactive mouseover component in action, you can check out the live demo at the following link: Demo Link
-
 `###Features`
 
 Interactive mouseover effect on images
